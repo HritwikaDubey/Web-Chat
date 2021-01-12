@@ -1,0 +1,20 @@
+   
+.app {
+  display: grid;
+  place-items: center;
+  background-color:#161515;
+  height: 100vh;
+  overflow: hidden;
+  background:linear-gradient(to bottom right,teal,black);
+}
+
+
+
+
+
+.app__body {
+  display: flex;
+  height: 90vh;
+  width: 90vw;
+ /*box-shadow: -1px 9px 40px -6px #3D3D3D(0, 0, 0, 0.2);*/
+}

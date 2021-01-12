@@ -1,0 +1,140 @@
+.login {
+  background:linear-gradient(to bottom right,rgba(5, 126, 126, 0.726),black);
+  min-width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  
+
+
+}
+
+
+.login >.login__container {
+ 
+  
+  overflow: hidden;
+  min-width: 90vw;
+  min-height: 90vh;
+  display: grid;
+  text-align: center;
+  background-color: #262627;
+  border-radius: 10px;
+  box-shadow:6px 8px #46454575;
+}
+
+/*.login__container >h2{
+   color: rgb(4, 105, 105);
+   margin-top: -40px;
+   margin-bottom: 40px;
+   font-size: 30px;
+}
+*/
+.cont__txt {
+  color: rgb(6, 161, 161);
+  font-size: 34px;
+  margin-left: 883px;
+  margin-top: 110px;
+ 
+}
+
+
+
+  .login__container >input:focus{
+    outline: none;
+    color:rgb(6, 161, 161);
+    
+  }
+ 
+ .button {
+   outline: none;
+   height: 6vh;
+   width: 250px;
+   margin-top: -210px;
+   margin-left: 1007px;
+   border: none;
+   border-radius: 5px;
+   background:linear-gradient(to right,#5cbebe,teal);
+   cursor: pointer;
+   
+   }
+
+   .button1{
+    outline: none;
+    height: 6vh;
+    width: 250px;
+    margin-top: -150px;
+   margin-left: 1007px;
+    border: none;
+    border-radius: 5px;
+    background:linear-gradient(to right,#5cbebe,teal);
+    cursor: pointer;
+    
+    }
+
+   .button span{
+     font-weight: bold;
+     color: white;
+     font-size: larger;
+     margin-bottom: 30px;
+   }
+
+   .button1 span{
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+    
+  }
+   
+  
+   
+   
+
+  
+
+   .login__container> input{
+     border: none;
+     height: 28px;
+     width: 360px;
+     color: rgb(6, 161, 161);
+     border-bottom: 1px solid rgb(6, 161, 161);
+     font-size: medium;
+     margin-left: 950px;
+     background:none;
+     
+    
+   }
+   ::placeholder{
+     color: rgb(6, 161, 161);
+     
+     
+   }
+
+   .vl{
+     border-left:  2px solid rgb(6, 161, 161);
+     height: 580px;
+     margin-left: 63%;
+     margin-top: -590px;
+   }
+
+   .login__container > .text{
+   margin-top: -410px;}
+
+   .login__container > .text1{
+    margin-top: -350px;}
+
+    .login__container > .text2{
+      margin-top: -290px;}
+   
+
+  
+ 
+
+  
+ 
+
+  
+
+ 
+
+  
